@@ -1,25 +1,5 @@
-# Serenity JUnit Starter project
+# Essential Patterns for Sustainable Test Automation Using BUILDER PATTERNS
 
-Get started quickly with Serenity BDD and JUnit 5 with this simple starter project. 
-
-## Get the code
-
-Click on the [Use This Template button](https://github.com/serenity-bdd/serenity-junit-starter/generate) to create a new project in your own Github account. 
-
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-junit-starter/archive/master.zip) file.
-
-## Running the tests under Maven
-
-The template project comes with both Maven and Gradle build scripts. To run the tests with Maven, open a command window and run:
-
-  ./mvnw clean verify
-
-## Use Gradle
-
-For GRADLE, pen a command window and run:
-
-  ./gradlew test 
-
-## Viewing the reports
-
-Both of the commands provided above will produce a Serenity test report in the `target/site/serenity` directory. Go take a look!
+This short tutorial introduced me to the concept of Builder patterns in Test automation.
+I Refactored the DogBreeder class as an external builder class, and created builder prototype methods
+for aLargeDog(), aSmallDog() and aGuardDog().
